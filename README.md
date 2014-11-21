@@ -1,0 +1,4 @@
+nxprofile
+=========
+
+Bash Profile
