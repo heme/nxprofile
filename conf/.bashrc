@@ -124,12 +124,9 @@ export HISTSIZE=3000
 export GREP_OPTIONS='--color=always'
 export GREP_COLOR='1;35;40'
 
-# LS COLORS
-export CLICOLOR=1
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
-    # *NIX
-    export LS_COLORS=Exfxcxdxbxegedabagacad
-elif [[ "$OSTYPE" == "darwin"* ]]; then
+# OSX LS COLORS
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    export CLICOLOR=1
     export LSCOLORS=Exfxcxdxbxegedabagacad
 fi
 
