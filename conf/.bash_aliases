@@ -10,6 +10,7 @@ alias rm='rm -i'
 alias la="ls -lah"
 alias ll="ls -lh"
 alias lh="ls -ld .??*"
+alias tree="tree -C"
 
 # PROFILE
 alias epro="vi ~/.bash_profile"
