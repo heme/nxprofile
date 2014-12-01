@@ -117,12 +117,21 @@ fi
 # CUSTOM ############################################################
 
 # HISTORY
-HISTFILESIZE=3000
-HISTSIZE=3000
+export HISTFILESIZE=3000
+export HISTSIZE=3000
 
 # GREP
-GREP_OPTIONS='--color=always'
-GREP_COLOR='1;35;40'
+export GREP_OPTIONS='--color=always'
+export GREP_COLOR='1;35;40'
+
+# LS COLORS
+export CLICOLOR=1
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+    # *NIX
+    export LS_COLORS=Exfxcxdxbxegedabagacad
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    export LSCOLORS=Exfxcxdxbxegedabagacad
+fi
 
 # BASH GIT PROMPT
 if [ -f ~/nxprofile/bash-git-prompt/gitprompt.sh ]; then
