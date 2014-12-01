@@ -17,7 +17,7 @@ fi
 Create symlinks for vim conf files
 ```bash
 # remove the existing files and symlink to repo's files
-rm ~/.vimrc ~/.vim
+rm -rf ~/.vimrc ~/.vim
 ln -s ~/nxprofile/conf/.vimrc ~/.vimrc
 ln -s ~/nxprofile/conf/.vim .vim
 ```
