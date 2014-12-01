@@ -4,7 +4,7 @@ nxprofile
 #### Bash Profile Customizations
 
 
-Include by adding these lines to each ~/.bash*, file...
+Include by adding these lines to each ~/.bash*, ~/.git-prompt-colors.sh file...
 
 ```bash
 ME=$(basename ${BASH_SOURCE[0]})

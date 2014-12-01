@@ -135,6 +135,7 @@ fi
 
 # BASH GIT PROMPT
 if [ -f ~/nxprofile/bash-git-prompt/gitprompt.sh ]; then
+    GIT_PROMPT_THEME=Custom
     source ~/nxprofile/bash-git-prompt/gitprompt.sh
 fi
 
