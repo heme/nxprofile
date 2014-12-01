@@ -10,7 +10,13 @@ alias rm='rm -i'
 alias la="ls -lah"
 alias ll="ls -lh"
 alias lh="ls -ld .??*"
-alias tree="tree -C"
+alias lst="tree -C"
+
+# DOCKER
+alias dls="docker images"
+alias dps="docker ps"
+alias drmi="docker rmi"
+alias drm="docker rm"
 
 # PROFILE
 alias epro="vi ~/.bash_profile"
