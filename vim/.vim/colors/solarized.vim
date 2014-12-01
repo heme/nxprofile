@@ -1,0 +1,1 @@
+/Users/ehemesath/tools/vim-colors-solarized/colors/solarized.vim

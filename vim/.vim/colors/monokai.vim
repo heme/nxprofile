@@ -1,0 +1,1 @@
+/Users/ehemesath/tools/vim-monokai/colors/monokai.vim

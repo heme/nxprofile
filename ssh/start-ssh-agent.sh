@@ -1,9 +1,12 @@
+#!/bin/sh
+
 SSH_ENV=$HOME/.ssh/env
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ADD_KEYS=$DIR/ssh-add.sh
 
 # load addition kays
 function add_keys {
+    echo ${ADD_Keys};
     if [ -f "${ADD_KEYS}" ]; then
         echo "loading additional keys from: ${ADD_KEYS}";
         source ${ADD_KEYS};
