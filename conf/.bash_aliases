@@ -1,6 +1,9 @@
 # OTHER
 alias cls="clear" #windows cmd habbit
 
+# SEARCH HISTORY
+alias hist="history | grep"
+
 # SAFE
 alias cp='cp -i'
 alias mv='mv -i'
@@ -14,8 +17,9 @@ alias lst="tree -C"
 
 # DOCKER
 alias dls="docker images"
-alias dps="docker ps"
+alias dps="docker ps -a"
 alias drmi="docker rmi"
+alias dstp="docker stop"
 alias drm="docker rm"
 
 # PROFILE
