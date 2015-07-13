@@ -14,13 +14,23 @@ alias la="ls -lah"
 alias ll="ls -lh"
 alias lh="ls -ld .??*"
 alias lst="tree -C"
+alias cll="clear && ll"
+
+# GIT
+alias ghash="git log -n 1 --pretty=format:\"%H\""
 
 # DOCKER
-alias dls="docker images"
-alias dps="docker ps -a"
+alias dm="docker-machine"
+alias dls="clear && docker images"
+alias dps="docker ps"
+alias dpsa="docker ps -a"
+alias dlogs="docker logs"
 alias drmi="docker rmi"
-alias dstp="docker stop"
+alias dstop="docker stop"
 alias drm="docker rm"
+alias dtemp="docker run -i -t --rm=true"
+alias din="docker exec -it"
+alias figup="fig up -d"
 
 # PROFILE
 alias epro="vi ~/.bash_profile"
