@@ -1,0 +1,10 @@
+{
+	"browser": "/Applications/Firefox.app",
+    "build_action": "browser",
+    "enable_highlight": false,
+    "css": "/Users/ehemesath/dev/apache/htdocs/md/html/_template/template.css",
+    "html_template": "/Users/ehemesath/dev/apache/htdocs/md/html/_template/customized-template-sample.html",
+    "skip_default_stylesheet": true,
+    "path_tempfile": "/Users/ehemesath/dev/apache/htdocs/md/html/",
+    
+}

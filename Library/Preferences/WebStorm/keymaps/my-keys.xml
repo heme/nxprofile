@@ -1,0 +1,40 @@
+<keymap version="1" name="my-keys" parent="Mac OS X 10.5+">
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift meta DOWN" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift meta UP" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="meta alt 2" />
+  </action>
+  <action id="RunJsbtTask">
+    <keyboard-shortcut first-keystroke="alt F11" />
+    <keyboard-shortcut first-keystroke="shift meta P" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="control G" />
+    <keyboard-shortcut first-keystroke="shift meta D" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+</keymap>

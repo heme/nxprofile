@@ -1,5 +1,7 @@
 # OTHER
 alias cls="clear" #windows cmd habbit
+alias -- -="cd -"
+alias aliases="sublime ~/nxprofile/home/.bash_aliases ~/.bash_aliases"
 
 # SEARCH HISTORY
 alias hist="history | grep"
@@ -14,6 +16,7 @@ alias la="ls -lah"
 alias ll="ls -lh"
 alias lh="ls -ld .??*"
 alias lst="tree -C"
+alias lsta="tree -a -C -I \".git|.gitignore|.DS_Store\""
 alias cll="clear && ll"
 
 # GIT

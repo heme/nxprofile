@@ -1,0 +1,33 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApacheConf.tmLanguage",
+		"auto-save",
+		"BracketHighlighter",
+		"Dockerfile Syntax Highlighting",
+		"FuzzyFilePath",
+		"GhostText",
+		"GitGutter",
+		"Gradle_Language",
+		"HTML5",
+		"Jade",
+		"JavaScriptNext - ES6 Syntax",
+		"JsonTree",
+		"LESS",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Markup Jira Confluence",
+		"nginx",
+		"Package Control",
+		"Pretty JSON",
+		"ReadmePlease",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-json",
+		"SublimeLinter-shellcheck"
+	]
+}
