@@ -1,5 +1,25 @@
 {
-	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"added_words":
+	[
+		"frontend",
+		"funnelwise",
+		"lcl",
+		"ip",
+		"repo",
+		"npm",
+		"vm",
+		"sudo",
+		"linting",
+		"backend",
+		"api",
+		"https",
+		"postgresql",
+		"bitbucket"
+	],
+	// "color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme",
+	// "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	// "theme": "Material-Theme.sublime-theme",
 	"font_size": 14,
 	"ignored_packages":
 	[

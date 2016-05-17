@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -7,19 +8,21 @@
 		"ApacheConf.tmLanguage",
 		"auto-save",
 		"BracketHighlighter",
+		"DB1",
 		"Dockerfile Syntax Highlighting",
 		"FuzzyFilePath",
 		"GhostText",
 		"GitGutter",
 		"Gradle_Language",
 		"HTML5",
-		"Jade",
 		"JavaScriptNext - ES6 Syntax",
 		"JsonTree",
 		"LESS",
 		"Markdown Preview",
 		"MarkdownEditing",
 		"Markup Jira Confluence",
+		"Material Theme",
+		"Neon Color Scheme",
 		"nginx",
 		"Package Control",
 		"Pretty JSON",
@@ -28,6 +31,7 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-json",
-		"SublimeLinter-shellcheck"
+		"SublimeLinter-shellcheck",
+		"SVG-Snippets"
 	]
 }

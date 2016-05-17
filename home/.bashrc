@@ -116,6 +116,21 @@ fi
 
 # CUSTOM ############################################################
 
+ggl() { 
+    open /Applications/Google\ Chrome.app/ "http://www.google.com/search?q= $1"; 
+}
+
+guid() {
+    QTY=${1:-1}
+    COUNTER=0
+    OUTPUT=""
+    while [ $COUNTER -lt $QTY ]; do
+        OUTPUT="$OUTPUT$(uuidgen)\n"
+        let COUNTER=COUNTER+1
+    done
+    echo -e "$OUTPUT" | pbcopy
+}
+
 # HISTORY
 export HISTFILESIZE=3000
 export HISTSIZE=3000

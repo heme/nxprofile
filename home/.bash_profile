@@ -4,10 +4,9 @@ export PATH=/usr/local/bin:$PATH
 # SSH - Load Keys
 source ~/nxprofile/ssh/start-ssh-agent.sh
 
-# DOCKER
-if hash boot2docker 2>/dev/null; then
-    boot2docker up
-    eval "$(boot2docker shellinit)"
+# BASH COMPLETION
+if [ -f `brew --prefix`/etc/bash_completion ]; then 
+    . `brew --prefix`/etc/bash_completion 
 fi
 
 # INCLUDE .profile

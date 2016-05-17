@@ -1,7 +1,9 @@
 # OTHER
 alias cls="clear" #windows cmd habbit
-alias -- -="cd -"
+alias .-="cd -"
+alias .~="cd ~"
 alias aliases="sublime ~/nxprofile/home/.bash_aliases ~/.bash_aliases"
+alias speedtest="speedtest_cli"
 
 # SEARCH HISTORY
 alias hist="history | grep"
@@ -15,29 +17,24 @@ alias rm='rm -i'
 alias la="ls -lah"
 alias ll="ls -lh"
 alias lh="ls -ld .??*"
-alias lst="tree -C"
-alias lsta="tree -a -C -I \".git|.gitignore|.DS_Store\""
+alias lst="tree -C -L 2"
+alias lsta="tree -a -C -L 2 -I \".git|.gitignore|.DS_Store\""
 alias cll="clear && ll"
 
 # GIT
-alias ghash="git log -n 1 --pretty=format:\"%H\""
+alias g="git"
 
 # DOCKER
-alias dm="docker-machine"
-alias dls="clear && docker images"
+alias d="docker"
 alias dps="docker ps"
 alias dpsa="docker ps -a"
-alias dlogs="docker logs"
-alias drmi="docker rmi"
-alias dstop="docker stop"
-alias drm="docker rm"
-alias dtemp="docker run -i -t --rm=true"
+alias dls="docker images"
+alias dl="docker logs --tail=50"
+alias dlf="docker logs -f"
 alias din="docker exec -it"
-alias figup="fig up -d"
-
-# PROFILE
-alias epro="vi ~/.bash_profile"
-alias lpro="source ~/.bash_profile"
+alias dtemp="docker run -i -t --rm=true"
+alias dc="docker-compose"
+alias dm="docker-machine"
 
 # HOSTS FILE
 alias hosts="sudo vi /etc/hosts"
