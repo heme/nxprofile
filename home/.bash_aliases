@@ -26,8 +26,9 @@ alias g="git"
 
 # DOCKER
 alias d="docker"
-alias dps="docker ps"
-alias dpsa="docker ps -a"
+alias dps="docker ps --format=\"table {{.ID}}\\t{{.Names}}\\t{{.Image}}\\t{{.Command}}\\t{{.Status}}\""
+alias dpsa="docker ps -a --format=\"table {{.ID}}\\t{{.Names}}\\t{{.Image}}\\t{{.Command}}\\t{{.Status}}\""
+# alias dpsa="docker ps -a --format=\"table {{.ID}}\\t{{.Names}}\\t{{.Status}}\""
 alias dls="docker images"
 alias dl="docker logs --tail=50"
 alias dlf="docker logs -f"
