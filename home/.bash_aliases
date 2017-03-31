@@ -2,7 +2,7 @@
 alias cls="clear" #windows cmd habbit
 alias .-="cd -"
 alias .~="cd ~"
-alias aliases="sublime ~/nxprofile/home/.bash_aliases ~/.bash_aliases"
+alias aliases="sublime --new-window ~/nxprofile/home/.bash_profile ~/.bash_profile ~/nxprofile/home/.bashrc ~/.bashrc ~/nxprofile/home/.bash_aliases ~/.bash_aliases"
 alias speedtest="speedtest_cli"
 
 # SEARCH HISTORY
