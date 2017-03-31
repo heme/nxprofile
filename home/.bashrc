@@ -125,10 +125,10 @@ guid() {
     COUNTER=0
     OUTPUT=""
     while [ $COUNTER -lt $QTY ]; do
-        OUTPUT="$OUTPUT$(uuidgen)\n"
+        OUTPUT="$OUTPUT$(uuidgen | awk '{print tolower($0)}' | tr -d '\n')\n"
         let COUNTER=COUNTER+1
     done
-    echo -e "$OUTPUT" | pbcopy
+    echo -e "$OUTPUT" | sed '/^\s*$/d' | pbcopy
 }
 
 # HISTORY
