@@ -5,13 +5,13 @@
 	],
 	"installed_packages":
 	[
-		"ApacheConf.tmLanguage",
 		"auto-save",
 		"BracketHighlighter",
-		"DB1",
+		"Compare Side-By-Side",
 		"Dockerfile Syntax Highlighting",
 		"FuzzyFilePath",
 		"GhostText",
+		"Git Config",
 		"GitGutter",
 		"Gradle_Language",
 		"HTML5",
@@ -25,6 +25,7 @@
 		"Neon Color Scheme",
 		"nginx",
 		"Package Control",
+		"PostgreSQL Syntax Highlighting",
 		"Pretty JSON",
 		"ReadmePlease",
 		"SideBarEnhancements",
@@ -32,6 +33,7 @@
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-json",
 		"SublimeLinter-shellcheck",
-		"SVG-Snippets"
+		"SVG-Snippets",
+		"Text Pastry"
 	]
 }

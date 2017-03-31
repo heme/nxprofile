@@ -3,5 +3,7 @@
     { "keys": ["super+shift+d"], "command": "find_under_expand" },
     { "keys": ["super+d"], "command": "duplicate_line" },
     { "keys": ["option+up"], "command": "expand_selection", "args": {"to": "scope"} },
-    { "keys": ["super+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }
+    { "keys": ["super+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["super+1"], "command": "toggle_side_bar" },
+    { "keys": ["super+shift+1"], "command": "focus_side_bar" }
 ]

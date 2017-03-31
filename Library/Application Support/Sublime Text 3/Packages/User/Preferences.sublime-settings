@@ -16,16 +16,13 @@
 		"postgresql",
 		"bitbucket"
 	],
-	// "color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme",
-	// "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-	// "theme": "Material-Theme.sublime-theme",
-	"font_size": 14,
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"Markdown",
 		"Vintage"
 	],
 	"open_files_in_new_window": false,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": false
 }
