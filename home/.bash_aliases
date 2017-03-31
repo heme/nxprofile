@@ -52,6 +52,7 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
         alias pbpaste='xsel --clipboard --output'
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     # OSX
+        alias ql='qlmanage -p '
         # finder modifications
         alias showFullPath="defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder /System/Library/CoreServices/Finder.app"
         alias hideFulPath="defaults write com.apple.finder _FXShowPosixPathInTitle -bool false; killall Finder /System/Library/CoreServices/Finder.app"
