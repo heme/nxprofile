@@ -116,8 +116,16 @@ fi
 
 # CUSTOM ############################################################
 
-ggl() { 
+notify() {
+    eval "osascript -e 'display notification \"${1}\" with title \"Terminal\" subtitle \"${2}\" sound name \"Tink\"'"
+}
+
+goog() { 
     open /Applications/Google\ Chrome.app/ "http://www.google.com/search?q= $1"; 
+}
+
+chrome() {
+    open -na "Google Chrome" --args --new-window "$@"
 }
 
 guid() {
@@ -151,4 +159,6 @@ if [ -f ~/nxprofile/bash-git-prompt/gitprompt.sh ]; then
     source ~/nxprofile/bash-git-prompt/gitprompt.sh
 fi
 
-
+gmail() {
+    eval "http --print HBhb --json GET https://www.googleapis.com/gmail/v1/users/fwtest002@gmail.com/messages/16296bbaf5f29d3b 'Authorization: Bearer ya29.Gly3BfRmm8InWKEyCd6tjCZ29BENUfg1z4NqX0rDCRqgPV79_2KCdSyJYsZOxRsMWydmU2sDcXd1Mz2emCd12747WPmQKH7qHHENuLgYo_pzWXwsmDLqpFs80sqEOA'"
+}

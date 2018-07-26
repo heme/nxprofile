@@ -1,9 +1,21 @@
 # OTHER
-alias cls="clear" #windows cmd habbit
+alias cls="clear"
+alias br="clear && echo \"------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\""
+alias brr="clear && echo \"################################################################################################################################################################################################\""
 alias .-="cd -"
 alias .~="cd ~"
 alias aliases="sublime --new-window ~/nxprofile/home/.bash_profile ~/.bash_profile ~/nxprofile/home/.bashrc ~/.bashrc ~/nxprofile/home/.bash_aliases ~/.bash_aliases"
+alias realias="source ~/.bash_aliases"
 alias speedtest="speedtest_cli"
+alias hl="highlight"
+
+# EPOCH
+alias epochs="date -j \"+%s\""
+alias epochs90="expr \$(date -j \"+%s\") - 7776000"
+
+# NODE
+alias npr="npm run"
+alias y="yarn"
 
 # SEARCH HISTORY
 alias hist="history | grep"
@@ -17,7 +29,7 @@ alias rm='rm -i'
 alias la="ls -lah"
 alias ll="ls -lh"
 alias lh="ls -ld .??*"
-alias lst="tree -C -L 2"
+alias lst="tree -C -L 2 --dirsfirst"
 alias lsta="tree -a -C -L 2 -I \".git|.gitignore|.DS_Store\""
 alias cll="clear && ll"
 
@@ -30,12 +42,15 @@ alias dps="docker ps --format=\"table {{.ID}}\\t{{.Names}}\\t{{.Image}}\\t{{.Com
 alias dpsa="docker ps -a --format=\"table {{.ID}}\\t{{.Names}}\\t{{.Image}}\\t{{.Command}}\\t{{.Status}}\""
 # alias dpsa="docker ps -a --format=\"table {{.ID}}\\t{{.Names}}\\t{{.Status}}\""
 alias dls="docker images"
+alias dc="docker-compose"
+alias dv="docker volume"
+alias dvls="docker volume ls"
 alias dl="docker logs --tail=50"
 alias dlf="docker logs -f"
 alias din="docker exec -it"
 alias dtemp="docker run -i -t --rm=true"
-alias dc="docker-compose"
-alias dm="docker-machine"
+alias drmi="docker rmi"
+alias drmd='docker rmi $(docker images -qa -f "dangling=true")'
 
 # HOSTS FILE
 alias hosts="sudo vi /etc/hosts"

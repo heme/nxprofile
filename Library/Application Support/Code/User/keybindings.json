@@ -1,0 +1,18 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "cmd+backspace",         "command": "editor.action.deleteLines",
+                                         "when": "editorTextFocus && !editorReadonly" },
+    { "key": "cmd+shift+backspace",   "command": "deleteAllLeft",
+                                         "when": "editorTextFocus && !editorReadonly" },
+    { "key": "cmd+shift+up",          "command": "editor.action.moveLinesUpAction",
+                                         "when": "editorTextFocus && !editorReadonly" },
+    { "key": "cmd+shift+down",        "command": "editor.action.moveLinesDownAction",
+                                         "when": "editorTextFocus && !editorReadonly" },
+    { "key": "alt+up",                "command": "expand-selection-to-scope.expand",
+                                         "when": "editorTextFocus && !editorReadonly" },
+    { "key": "shift+cmd+d",           "command": "editor.action.addSelectionToNextFindMatch",
+                                         "when": "editorFocus" },
+    { "key": "cmd+d",                 "command": "editor.action.copyLinesDownAction",
+                                         "when": "editorTextFocus && !editorReadonly" },
+    { "key": "cmd+alt+2",             "command": "workbench.action.splitEditor" }
+]

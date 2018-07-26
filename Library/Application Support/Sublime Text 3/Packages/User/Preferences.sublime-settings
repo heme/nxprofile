@@ -24,5 +24,6 @@
 		"Vintage"
 	],
 	"open_files_in_new_window": false,
-	"translate_tabs_to_spaces": false
+	"save_on_focus_lost": true,
+	"translate_tabs_to_spaces": true
 }
